@@ -19,6 +19,8 @@ namespace ppedv.Zugfahrt.Data.Ef
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+
+            modelBuilder.Entity<Kunde>().HasMany<Ticket>(x => x.Tickets).WithRequired(x => x.Kunde).WillCascadeOnDelete(true);
         }
 
     }
