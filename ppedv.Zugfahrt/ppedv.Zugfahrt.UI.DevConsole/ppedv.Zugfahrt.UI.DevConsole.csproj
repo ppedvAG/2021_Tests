@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ppedv.Zugfahrt.Data.Ef\ppedv.Zugfahrt.Data.Ef.csproj" />
+    <ProjectReference Include="..\ppedv.Zugfahrt.Logic\ppedv.Zugfahrt.Logic.csproj" />
+    <ProjectReference Include="..\ppedv.Zugfahrt.Model\ppedv.Zugfahrt.Model.csproj" />
+  </ItemGroup>
+
+</Project>
