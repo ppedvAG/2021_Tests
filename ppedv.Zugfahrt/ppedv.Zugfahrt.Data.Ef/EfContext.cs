@@ -20,7 +20,7 @@ namespace ppedv.Zugfahrt.Data.Ef
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
 
-            modelBuilder.Entity<Kunde>().HasMany<Ticket>(x => x.Tickets).WithRequired(x => x.Kunde).WillCascadeOnDelete(true);
+            modelBuilder.Entity<Kunde>().HasMany(x => x.Tickets).WithOptional(x => x.Kunde).WillCascadeOnDelete(true);
         }
 
     }
