@@ -19,4 +19,5 @@
     <ProjectReference Include="..\ppedv.Zugfahrt.Data.Ef\ppedv.Zugfahrt.Data.Ef.csproj" />
     <ProjectReference Include="..\ppedv.Zugfahrt.Model\ppedv.Zugfahrt.Model.csproj" />
   </ItemGroup>
+
 </Project>
