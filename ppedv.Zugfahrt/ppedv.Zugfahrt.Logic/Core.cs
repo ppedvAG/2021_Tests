@@ -21,7 +21,9 @@ namespace ppedv.Zugfahrt.Logic
 
         public Model.Zugfahrt GetMostValueZugfahrt()
         {
-            return Repository.Query<Model.Zugfahrt>().OrderBy(x => x.Tickets.Sum(y => y.Preis)).FirstOrDefault();
+            return Repository.Query<Model.Zugfahrt>().OrderByDescending(x => x.Tickets.Sum(y => y.Preis)).FirstOrDefault();
         }
+
+
     }
 }

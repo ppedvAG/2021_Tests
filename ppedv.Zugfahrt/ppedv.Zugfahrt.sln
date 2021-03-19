@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.Zugfahrt.Logic", "ppe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.Zugfahrt.UI.DevConsole", "ppedv.Zugfahrt.UI.DevConsole\ppedv.Zugfahrt.UI.DevConsole.csproj", "{64DCF4D3-D733-4BBB-B068-F2A4DA2F0ECE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.Zugfahrt.Logic.Tests", "ppedv.Zugfahrt.Logic.Tests\ppedv.Zugfahrt.Logic.Tests.csproj", "{8CB120A8-631D-4EEE-93FF-5E8E587E54F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{64DCF4D3-D733-4BBB-B068-F2A4DA2F0ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64DCF4D3-D733-4BBB-B068-F2A4DA2F0ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64DCF4D3-D733-4BBB-B068-F2A4DA2F0ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB120A8-631D-4EEE-93FF-5E8E587E54F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB120A8-631D-4EEE-93FF-5E8E587E54F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB120A8-631D-4EEE-93FF-5E8E587E54F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB120A8-631D-4EEE-93FF-5E8E587E54F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

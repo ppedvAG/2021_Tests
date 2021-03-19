@@ -23,7 +23,8 @@ namespace ppedv.Zugfahrt.UI.DevConsole
                     Console.WriteLine($"\t{t.Kunde.Name} {t.Preis:c}");
                 }
             }
-
+            var cool =  core.GetMostValueZugfahrt();
+           
 
             Console.ReadLine();
         }
